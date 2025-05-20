@@ -1,55 +1,55 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; (the space outside something);
+    padding: 0; (the space inside something);
 }
 
 .container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
+    height: 100vh; (specifies the height of an image);
+    width: 100%; (specifies the width of the element);
+    background-image: url(images/background.jpg); (graphics applied to the background);
+    background-position: center; (position applied to the background image);
+    background-size: cover; (size applied to the background image);
+    padding-left: 5%; (the space inside something);
+    padding-right: 5%; (the space inside something);
+    box-sizing: border-box; (controls how an element's total width and height are calculated);
+    position: relative; (identifies the position of a item);
 }
 
 .navbar{
-  width: 100%;
-  height: 15vh;
-  margin: auto;
-  display: flex;
-  align-items: center;
+  width: 100%; (specifies the width of the element);
+  height: 15vh; (specifies the height of an image);
+  margin: auto; (the space outside something);
+  display: flex; (how an element is shown on a web page);
+  align-items: center; (specifies the default alignment for items);
 }
 
 .logo{
-  width: 160px;
-  cursor: pointer;
+  width: 160px; (specifies the width of the element);
+  cursor: pointer; (the pointer that indicates your position on the screen);
 }
 
 .cart{
-  width: 40px;
-  cursor: pointer;
+  width: 40px; (specifies the width of the element);
+  cursor: pointer; (the pointer that indicates your position on the screen);
 }
 
 nav{
-  flex: 1;
-  padding-left: 60px;
+  flex: 1; (expands items);
+  padding-left: 60px; (the space inside something);
 }
 
 nav ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 0px 20px;
+  display: inline-block; (how an element is shown on a web page);
+  list-style: none; (the appearance of bullets or numbering lists);
+  margin: 0px 20px; (the space outside something);
 }
 
 nav ul li a{
-  text-decoration: none;
-  color: #333;
+  text-decoration: none; (decorative effects applied to text);
+  color: #333; (black colour);
 }
 
 .movie{
-    width: 400px;
-    height: 225px;
+    width: 400px; (specifies the width of the element);
+    height: 225px; (specifies the height of an image);
     
