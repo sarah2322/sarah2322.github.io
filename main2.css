@@ -51,7 +51,6 @@ nav ul li a{
 
 video{
  position: relative; (determines how an element is positioned on the page);
- top: -50px; (controls the vertical positioning of a positioned element);
- bottom: -50px; (controls the vertical positioning of a positioned element);
+ float: right;
 
 }
