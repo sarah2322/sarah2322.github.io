@@ -1,79 +1,79 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; (the space outside something);
+    padding: 0; (the space inside something);
 }
 
 .container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
+    height: 100vh; (specifies the height of an image);
+    width: 100%; (specifies the width of the element);
+    background-image: url(images/background.jpg); (graphics applied to the background);
+    background-position: center; (position applied to the background image);
+    background-size: cover; (size applied to the background image);
+    padding-left: 5%; (the space inside something);
+    padding-right: 5%; (the space inside something);
+    box-sizing: border-box; (controls how an element's total width and height are calculated);
+    position: relative; (identifies the position of a item);
 }
 
 .navbar{
-  width: 100%;
-  height: 15vh;
-  margin: auto;
-  display: flex;
-  align-items: center;
+  width: 100%; (specifies the width of the element);
+  height: 15vh; (specifies the height of an image);
+  margin: auto; (the space outside something);
+  display: flex; (controls how an element's total width and height are calculated);
+  align-items: center; (specifies the default alignment for items);
 }
 
 .logo{
-  width: 160px;
-  cursor: pointer;
+  width: 160px; (specifies the width of the element);
+  cursor: pointer; (the pointer that indicates your position on the screen);
 }
 
 .leaf{
-  width: 40px;
-  cursor: pointer;
+  width: 40px; (specifies the width of the element);
+  cursor: pointer; (the pointer that indicates your position on the screen);
 }
 
 nav{
-  flex: 1;
-  padding-left: 60px;
+  flex: 1; (expands items);
+  padding-left: 60px; (the space inside something);
 }
 
 nav ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 0px 20px;
+  display: inline-block; (how an element is shown on a web page);
+  list-style: none; (the appearance of bullets or numbering lists);
+  margin: 0px 20px; (the space outside something);
 }
 
 nav ul li a{
-  text-decoration: none;
-  color: #333;
+  text-decoration: none; (decorative effects applied to text);
+  color: #333; (black colour);
 }
 
 .content h1{
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 24px;
-  margin-bottom: 15px;
-  color: #bee893;
-  text-align: center;
+  font-size: 30px; (the size of the text);
+  font-weight: 100; (specifies the width of the element);
+  margin-top: 24px; (the space outside something);
+  margin-bottom: 15px; (the space outside something);
+  color: #bee893; (light green colour);
+  text-align: center; (aligning the text);
 }
 
 .content2 .button{
-  display: inline-block;
+  display: inline-block; (how an element is shown on a web page);
   background: linear-gradient(45deg, #fdc0c7, #f8f4c7);
-  border-radius: 6px;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: #fff;
-  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
-  margin-left: 270px;
+  border-radius: 6px; (the radius of the border);
+  padding: 10px 20px; (the space inside something);
+  box-sizing: border-box; (controls how an element's total width and height are calculated);
+  text-decoration: none; (decorative effects applied to text);
+  color: #fff; (colour black);
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15); (the shadow of the box);
+  margin-left: 270px; (the space outside something);
 }
 
 h2{
-  text-align: center;
-  margin-top: 30px;
-  font-size: 50px;
-  color: #C6E2FF;
+  text-align: center; (aligning the text);
+  margin-top: 30px; (the space outside something);
+  font-size: 50px; (the size of the text);
+  color: #C6E2FF; (light blue colour);
 }
 
