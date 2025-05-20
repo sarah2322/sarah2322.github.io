@@ -61,3 +61,23 @@ nav ul li a{
   margin-right: 150px;
  margin-left: 1000px;
 }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center;       /* Vertically center content */
+  background-color: #f0f0f0;
+}
+
+.video-container {
+  margin-right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+video {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+}
