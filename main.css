@@ -1,0 +1,55 @@
+h1 {
+    color: pink;
+    font-size: 90px;
+    text-align: center ;
+  }
+
+p {
+    font-size: 100px;
+    color: lightblue;
+    text-align: center;
+    width: 500px;
+}
+
+img {
+    height: 480px;
+    width: 60%;
+  }
+
+
+
+
+  h1 {
+    margin: 0;
+  }
+  p {
+    width: 650px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 187px;
+    margin-right: 187px;
+  }
+  
+  img {
+    width: 40%;
+    height: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(163, 207, 243);
+    font-size: 56px
+  }
+  
+  p {
+    color: rgb(177, 224, 255);
+    font-size: 19px;
+    text-align: center
+  }
+  
+  span {
+    font-size: 25px;
+    color: rgb(160, 201, 255);
+  }
+
