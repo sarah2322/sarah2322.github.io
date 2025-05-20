@@ -1,6 +1,7 @@
 *{
     margin: 0; 
     padding: 0; 
+}
 
 .container{
     height: 100vh; 
@@ -20,6 +21,7 @@
   margin: auto; 
   display: flex; 
   align-items: center; 
+}
 
 .logo{
   width: 160px; 
