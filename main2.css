@@ -49,12 +49,12 @@ nav ul li a{
   color: #333; (enhance the visual appeal and readability of web pages);
 }
 
-.content h1{
-  font-size: 80px;
+.content{
+  font-size: 60px;
   font-weight: 100;
   margin-top: 24px;
   margin-bottom: 15px;
-  color: #e66c6a;
+  color: #232d60;
 }
 
 .movie{
