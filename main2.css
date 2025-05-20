@@ -49,8 +49,16 @@ nav ul li a{
   color: #333; (enhance the visual appeal and readability of web pages);
 }
 
-video{
- position: relative; (determines how an element is positioned on the page);
- float: right;
+.content h1{
+  font-size: 80px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #e66c6a;
+}
 
+.movie{
+ float: right;
+ margin-top: -380px;
+ margin-right: 350px;
 }
