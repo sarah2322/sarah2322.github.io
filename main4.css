@@ -1,84 +1,84 @@
 *{
-    margin: 0; (the space outside something);
-    padding: 0; (the space inside something);
+    margin: 0;
+    padding: 0; 
 }
 
 .container{
-    height: 100vh; (specifies the height of an image);
-    width: 100%; (specifies the width of the element);
-    background-image: url(images/background.jpg); (graphics applied to the background);
-    background-position: center; (position applied to the background image);
-    background-size: cover; (size applied to the background image);
-    padding-left: 5%; (the space inside something);
-    padding-right: 5%; (the space inside something);
-    box-sizing: border-box; (controls how an element's total width and height are calculated);
-    position: relative; (identifies the position of a item);
+    height: 100vh; 
+    width: 100%; 
+    background-image: url(images/background.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    box-sizing: border-box; 
+    position: relative; 
 }
 
 .navbar{
-  width: 100%; (specifies the width of the element);
-  height: 15vh; (specifies the height of an image);
-  margin: auto; (the space outside something);
-  display: flex; (how an element is shown on a web page);
-  align-items: center; (specifies the default alignment for items);
+  width: 100%; 
+  height: 15vh; 
+  margin: auto; 
+  display: flex; 
+  align-items: center; 
 }
 
 .logo{
-  width: 160px; (specifies the width of the element);
-  cursor: pointer; (the pointer that indicates your position on the screen);
+  width: 160px; 
+  cursor: pointer; 
 }
 
 .leaf{
-  width: 40px; (specifies the width of the element);
-  cursor: pointer; (the pointer that indicates your position on the screen);
+  width: 40px; 
+  cursor: pointer; 
 }
 
 nav{
-  flex: 1; (expands items);
-  padding-left: 60px; (the space inside something);
+  flex: 1; 
+  padding-left: 60px; 
 }
 
 nav ul li{
-  display: inline-block; (how an element is shown on a web page);
-  list-style: none; (the appearance of bullets or numbering lists);
-  margin: 0px 20px; (the space outside something);
+  display: inline-block; 
+  list-style: none; 
+  margin: 0px 20px; 
 }
 
 nav ul li a{
-  text-decoration: none; (decorative effects applied to text);
-  color: #000000; (black colour);
+  text-decoration: none; 
+  color: #000000; 
 }
 
 h1{
   text-align: center;
-  margin-top: 30px; (the space outside something);
-  font-size: 40px; (the size of the text);
-  color: #C6E2FF; (light blue);
+  margin-top: 30px; 
+  font-size: 40px; (
+  color: #C6E2FF; 
 }
 
 .gallery{
-  height: 80%; (specifies the height of an image);
-  width: 100%; (specifies the width of the element);
-  display: flex; (how an element is shown on a web page);
-  margin: 5% auto 0; (the space outside something);
-  box-sizing: border-box; (controls how an element's total width and height are calculated);
+  height: 80%; 
+  width: 100%; 
+  display: flex; 
+  margin: 5% auto 0; 
+  box-sizing: border-box; 
 }
 
 .image-box{
-  margin: 0 1%; (the space outside something);
-  flex-grow: 1; (expands items);
-  flex-basis: 0; (expands items);
-  transition: 0.5s; (transition between photos);
+  margin: 0 1%; 
+  flex-grow: 1; 
+  flex-basis: 0; 
+  transition: 0.5s; 
 }
 
 .image-box img{
-  width: 100%; (specifies the width of the element);
-  height: 100%; (specifies the height of an image);
-  object-fit: cover; (making the object fit within the frame);
-  transition: 0.5s; (transition between photos);
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  transition: 0.5s; 
 }
 
 .image-box:hover{
-  flex-basis: 50%; (expands items);
+  flex-basis: 50%; 
 }
 
