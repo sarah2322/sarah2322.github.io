@@ -50,13 +50,14 @@ nav ul li a{
 }
 
 .content h1{
-  font-size: 50px;
-  margin-top: 400px;
-  font-weight: 100;
-  color: #e66c6a;
+    font-size: 50px;
+    margin-top: 400px;
+    font-weight: 100;
+    color: #e66c6a;
 }
 
 .movie{
- float: right;
- margin-right: 350px;
+    margin-top: -380px;
+    float: right;
+    margin-right: 350px;
 }
