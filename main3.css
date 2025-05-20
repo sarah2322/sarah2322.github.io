@@ -55,4 +55,18 @@ nav ul li a{
   margin-top: 24px;
   margin-bottom: 15px;
   color: #232d60;
+  text-align: center;
 }
+
+.content2 .button{
+  display: inline-block;
+  background: linear-gradient(45deg, #87adfe, #ff77cd);
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+  margin-left: 270px;
+}
+
