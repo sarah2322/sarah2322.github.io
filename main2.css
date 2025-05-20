@@ -51,13 +51,11 @@ nav ul li a{
 
 .content h1{
     font-size: 80px;
-    margin-top: -380px;
     font-weight: 100;
     color: #e66c6a;
 }
 
 .movie{
-    margin-top: -380px;
     float: right;
     margin-right: 350px;
 }
