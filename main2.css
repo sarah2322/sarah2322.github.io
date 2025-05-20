@@ -1,57 +1,57 @@
 *{
     margin: 0; (controls the spacing width between the edges of my web page and the element itself);
-    padding: 0; #making additional space inside a component;
+    padding: 0; (making additional space inside a component);
 }
 
 .container{
-    height: 100vh; 
-    width: 100%;
+    height: 100vh; (determine the vertical dimension of elements, specifying how tall they are);
+    width: 100%; (specify the width of an element);
     background-image: url(images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%; #making additional space inside a component
-    padding-right: 5%; #making additional space inside a component
-    box-sizing: border-box;
-    position: relative;
+    background-position: center; (sets the starting position of a background image);
+    background-size: cover;  (sets the starting size of a background image);
+    padding-left: 5%; (making additional space inside a component);
+    padding-right: 5%; (making additional space inside a component);
+    box-sizing: border-box; (controls how the total width and height of an element are calculated):
+    position: relative; (determines how an element is positioned on the page);
 }
 
 .navbar{
-  width: 100%;
-  height: 15vh;
-  margin: auto; #controls the spacing width between the edges of my web page and the element itself;
-  display: flex;
-  align-items: center;
+  width: 100%; (specify the width of an element);
+  height: 15vh; (determine the vertical dimension of elements, specifying how tall they are);
+  margin: auto; (controls the spacing width between the edges of my web page and the element itself);
+  display: flex; (to specify how an element is shown on a web page);
+  align-items: center; (controls how flex and grid items are positioned);
 }
 
 .logo{
-  width: 160px;
-  cursor: pointer;
+  width: 160px; (specify the width of an element);
+  cursor: pointer; (controls the appearance of the mouse pointer);
 }
 
 .leaf{
-  width: 40px;
-  cursor: pointer;
+  width: 40px; (specify the width of an element);
+  cursor: pointer; (controls the appearance of the mouse pointer);
 }
 
 nav{
-  flex: 1;
-  padding-left: 60px;
+  flex: 1; (controls how flex items within a flex container grow or shrink);
+  padding-left: 60px; (making additional space inside a component);
 }
 
 nav ul li{
-  display: inline-block;
-  list-style: none;
-  margin: 0px 20px; #controls the spacing width between the edges of my web page and the element itself;
+  display: inline-block; (to specify how an element is shown on a web page);
+  list-style: none; (control the appearance of list markers);
+  margin: 0px 20px; (controls the spacing width between the edges of my web page and the element itself);
 }
 
 nav ul li a{
-  text-decoration: none;
-  color: #333;
+  text-decoration: none; (underlining, striking through, or adding a line above or below the text);
+  color: #333; (enhance the visual appeal and readability of web pages);
 }
 
 video{
-  position: relative;
-  top: -50px;
-    bottom: -50px;
+ position: relative; (determines how an element is positioned on the page);
+ top: -50px; (controls the vertical positioning of a positioned element);
+ bottom: -50px; (controls the vertical positioning of a positioned element);
 
 }
